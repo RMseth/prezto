@@ -58,7 +58,7 @@ zstyle ':prezto:module:editor' dot-expansion 'yes'
 # Git
 #
 # output is configurable via the following style: where context is *brief*, *oneline*, and *medium*,
-zstyle ':prezto:module:git:log:context' format 'brief'
+zstyle ':prezto:module:git:log:context' format 'medium'
 
 
 # Ignore submodules when they are 'dirty', 'untracked', 'all', or 'none'.
@@ -99,7 +99,7 @@ zstyle ':prezto:module:history-substring-search:color' not-found ''
 # Set the prompt theme to load.
 # Setting it to 'random' loads a random theme.
 # Auto set to 'off' on dumb terminals.
-zstyle ':prezto:module:prompt' theme 'sorin'
+zstyle ':prezto:module:prompt' theme 'paradox'
 
 #
 # Ruby
