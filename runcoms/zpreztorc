@@ -49,7 +49,7 @@ zstyle ':prezto:module:autosuggestions' color 'yes'
 #
 
 # Set the key mapping style to 'emacs' or 'vi'.
-zstyle ':prezto:module:editor' key-bindings 'vi'
+zstyle ':prezto:module:editor' key-bindings 'emacs'
 
 # Auto convert .... to ../..
 zstyle ':prezto:module:editor' dot-expansion 'yes'
@@ -106,7 +106,7 @@ zstyle ':prezto:module:prompt' theme 'paradox'
 #
 
 # Auto switch the Ruby version on directory change.
-# zstyle ':prezto:module:ruby:chruby' auto-switch 'yes'
+zstyle ':prezto:module:ruby:chruby' auto-switch 'yes'
 
 #
 # Screen
@@ -151,13 +151,13 @@ zstyle ':prezto:module:syntax-highlighting' highlighters \
 #
 
 # Auto set the tab and window titles.
-# zstyle ':prezto:module:terminal' auto-title 'yes'
+zstyle ':prezto:module:terminal' auto-title 'yes'
 
 # Set the window title format.
-# zstyle ':prezto:module:terminal:window-title' format '%n@%m: %s'
+zstyle ':prezto:module:terminal:window-title' format '%n@%m: %s'
 
 # Set the tab title format.
-# zstyle ':prezto:module:terminal:tab-title' format '%m: %s'
+zstyle ':prezto:module:terminal:tab-title' format '%m: %s'
 
 #
 # Tmux
