@@ -28,14 +28,19 @@ zstyle ':prezto:load' pmodule \
   'terminal' \
   'editor' \
   'history' \
+  'history-substring-search' \
   'directory' \
   'spectrum' \
   'utility' \
   'completion' \
+  'ruby' \
+  'rails' \
+  'git' \
+  'node' \
+  'python' \
   'syntax-highlighting' \
-  'prompt' \
-  'git'
-
+  'utility' \
+  'prompt'
 #
 # Autosuggestions
 #
