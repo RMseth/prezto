@@ -21,7 +21,3 @@ if (( $+commands[fortune] )); then
     print
   fi
 fi
-
-[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
-
-/usr/bin/perl /home/seth/.xSwipe/xSwipe.pl -n -e -m 30 &
