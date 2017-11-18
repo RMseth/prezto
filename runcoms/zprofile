@@ -74,7 +74,18 @@ fi
 TMPPREFIX="${TMPDIR%/}/zsh"
 
 # setting up ssh-agent
-if [ -z "$SSH_AUTH_SOCK" ] ; then
-    eval `ssh-agent -s`
-    ssh-add
-fi
+#if [ -z "$SSH_AUTH_SOCK" ] ; then
+#    eval `ssh-agent -s`
+#    ssh-add
+#fi
+
+export ARCHFLAGS="-arch x86_64"
+export JAVA_HOME="/usr/lib/jvm/java-8-openjdk"
+
+# Android paths
+export ANDROID_HOME="/home/seth/Android/Sdk"
+#export ANDROID_AVD_HOME=""
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools
+
+alias code="visual-studio-"
+

@@ -10,7 +10,11 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-alias code="/mnt/c/Program\ Files/Microsoft\ VS\ Code\ Insiders/bin/code-insiders"
+# custom aliases
+alias pac="yaourt"
+#alias adb="sudo adb"
+#alias fastboot="sudo fastboot"
+alias sysinfo="neofetch"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
