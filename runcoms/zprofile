@@ -86,6 +86,3 @@ export JAVA_HOME="/usr/lib/jvm/java-8-openjdk"
 export ANDROID_HOME="/home/seth/Android/Sdk"
 #export ANDROID_AVD_HOME=""
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools
-
-#alias code="visual-studio-"
-
