@@ -91,8 +91,3 @@ export PATH="$PATH:`yarn global bin`"
 
 export PGSQL_HOME="/usr/local/pgsql/bin"
 export PATH=$PATH:$PGSQL_HOME
-
-# add my custom progams to path
-export SCRIPTS_HOME="/home/seth/scripts"
-
-export PATH=$PATH:$SCRIPTS_HOME/git_cleanup:$SCRIPTS_HOME/db_restore:$SCRIPTS_HOME/control_vm

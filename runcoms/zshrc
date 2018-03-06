@@ -18,6 +18,12 @@ alias sysinfo="neofetch"
 alias avdmanager="/home/seth/Android/Sdk/tools/bin/avdmanager"
 alias androidEmulator="/home/seth/Android/Sdk/tools/emulator"
 
+# add my custom progams to path
+export SCRIPTS_HOME="/home/seth/scripts"
+alias git_cleanup="$SCRIPTS_HOME/git_cleanup"
+alias db_restore="$SCRIPTS_HOME/db_restore"
+alias control_vm="$SCRIPTS_HOME/control_vm"
+
 export NVM_DIR="$HOME/.nvm"
 export NVM_SOURCE="/usr/share/nvm"                     # The AUR package installs it to here.
 [ -s "$NVM_SOURCE/nvm.sh" ] && . "$NVM_SOURCE/nvm.sh"  # Load NVM
